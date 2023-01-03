@@ -41,6 +41,8 @@ form {
 input {
   margin-top: 25px;
   margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
   height: 20px;
   width: 50%;
 }

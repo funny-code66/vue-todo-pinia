@@ -19,9 +19,11 @@ export default defineComponent({
 </script>
 <style scoped>
 .todo-app {
+  position: relative;
   padding: 5vh;
   min-height: 100vh;
-  width: 30vw;
+  width: 80vw;
   background-color: #f7f9fc;
+  left: 10vw !important;
 }
 </style>

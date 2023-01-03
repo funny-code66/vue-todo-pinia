@@ -4,10 +4,9 @@
       <span :class="{ completed: todo.completed }">
         {{  todo.item }}
       </span>
-      <div>
+
         <span @click.stop="toggleCompleted(todo.id)"> &#10004;</span>
         <span @click="deleteTodo(todo.id)"> &#10060;</span>
-      </div>
     </div>
 
   </div>
@@ -15,7 +14,7 @@
 
 <script>
 import { defineComponent } from "vue";
-import { useTodoListStore } from "@/assets/store/useTodoListStore";
+import { useTodoListStore } from "@/store/useTodoListStore";
 import { storeToRefs } from "pinia"
 export default {
   setup () {
